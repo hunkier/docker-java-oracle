@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER SgrAlpha <admin@mail.sgr.io>
+MAINTAINER hunkier <huangkuier@gmail.com>
 
 ENV DEBIAN_FRONTEND=noninteractive \
     JAVA_HOME=/usr/lib/jvm/java-10-oracle
