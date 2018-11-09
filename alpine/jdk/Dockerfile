@@ -1,5 +1,5 @@
 FROM alpine:latest
-MAINTAINER SgrAlpha <admin@mail.sgr.io>
+MAINTAINER hunkier <huangkuier@gmail.com>
 
 ENV JAVA_HOME=/usr/lib/jvm/java-8-oracle \
     JRE_HOME=/usr/lib/jvm/java-8-oracle/jre \
