@@ -1,5 +1,5 @@
 FROM sgrio/ubuntu-base
-MAINTAINER SgrAlpha <admin@mail.sgr.io>
+MAINTAINER hunkier <huangkuier@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 

@@ -9,7 +9,7 @@ To use this image, you must accept the [Oracle Binary Code License Agreement](ht
 `sgrio/java-oracle` provides several tagged images:
 
 * Default
-  * `latest`: pointed to `sgrio/java-oracle:server_jre_8_unlimited`
+  * `latest`: pointed to `hunkier/java-oracle:server_jre_8_unlimited`
 
 * Java 8
   * `server_jre_8`: based on `Oracle Java SE Server Runtime Environment 8 update 131 build 11`

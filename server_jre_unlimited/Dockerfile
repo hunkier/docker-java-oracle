@@ -1,5 +1,5 @@
 FROM sgrio/java-oracle:server_jre_7
-MAINTAINER SgrAlpha <admin@mail.sgr.io>
+MAINTAINER hunkier <huangkuier@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 

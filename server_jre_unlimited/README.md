@@ -1,15 +1,15 @@
 ## Docker images of Java 7/8 provided by Oracle on top of Ubuntu
 
-This repository contains **Dockerfile** of [Java SE](http://java.oracle.com/) for [Docker](https://www.docker.com/)'s [automated build](https://hub.docker.com/r/sgrio/java-oracle/) published to the public [Docker Hub](https://hub.docker.com/).
+This repository contains **Dockerfile** of [Java SE](http://java.oracle.com/) for [Docker](https://www.docker.com/)'s [automated build](https://hub.docker.com/r/hunkier/java-oracle/) published to the public [Docker Hub](https://hub.docker.com/).
 
 To use this image, you must accept the [Oracle Binary Code License Agreement](http://www.oracle.com/technetwork/java/javase/terms/license/index.html) for Java SE.
 
 ### Docker Tags
 
-`sgrio/java-oracle` provides several tagged images:
+`hunkier/java-oracle` provides several tagged images:
 
 * Default
-  * `latest`: pointed to `sgrio/java-oracle:server_jre_8_unlimited`
+  * `latest`: pointed to `hunkier/java-oracle:server_jre_8_unlimited`
 
 * Java 8
   * `server_jre_8`: based on `Oracle Java SE Server Runtime Environment 8 update 131 build 11`
@@ -28,8 +28,8 @@ To use this image, you must accept the [Oracle Binary Code License Agreement](ht
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download [automated build](https://hub.docker.com/r/sgrio/java-oracle/) from public [Docker Hub](https://hub.docker.com/): `docker pull sgrio/java-oracle`
+2. Download [automated build](https://hub.docker.com/r/hunkier/java-oracle/) from public [Docker Hub](https://hub.docker.com/): `docker pull hunkier/java-oracle`
 
 ### Usage
 
-    docker run -it --rm sgrio/java-oracle java -version
+    docker run -it --rm hunkier/java-oracle java -version
